@@ -1,72 +1,75 @@
 * {
-    padding: 0;
-    margin: auto;
-    box-sizing: border-box;
+  padding: 0;
+  margin: auto;
+  box-sizing: border-box;
 }
 
 body {
-    font-size: 18px;
-    font-family: "Open Sans", sans-serif;
-    color: hsl(192, 100%, 9%);
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: hsl(192, 100%, 9%);
 }
 
 .hero_container {
-    background-image: url(../images/bg-hero-mobile.svg);
-    background-color: hsl(193, 100%, 96%);
-    background-position: center;
-    background-size: cover;
-    width: 100%;
+  display: block;
+  background-image: url(../images/bg-hero-mobile.svg);
+  background-color: hsl(193, 100%, 96%);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
 }
 nav {
-    display: flex;
-    justify-content: space-between;
-    gap: 100px;
-    height: 80px;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  height: 80px;
 }
 
-.nav_brand img{
-    height: 20px;
+.nav_brand img {
+  height: 20px;
 }
 
 .myBtn button {
-    padding: 8px 10px;
-    border: none;
-    border-radius: 30px;
-    background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-size: 1.1rem;
-    font-weight: bolder;
-    cursor: pointer;
-    letter-spacing: 1px;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 50px;
+  color: hsl(208, 11%, 55%);
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  letter-spacing: 1px;
 }
 .myBtn button:hover {
-    padding: 8px 24px;
-    opacity: .7;
+  padding: 8px 24px;
+  opacity: 0.7;
 }
 .hero_section {
-    text-align: center;
-    width: 100%;
-    padding: 60px 0px;
+  text-align: center;
+  width: 100%;
+  padding: 60px 0px;
 }
 
-
 .hero_text h1 {
-    font-family: "Poppins", sans-serif; 
-    font-size: 2rem;
-    padding-bottom: 30px;
-    font-weight: 600;
-    margin: 0px 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  padding-bottom: 30px;
+  font-weight: 600;
+  margin: 0px 10px;
 }
 
 .hero_text p {
-    font-size: 1.2rem;
-    font-weight: 400;
-    padding-bottom: 40px;
-    margin: 0px 10px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding-bottom: 40px;
+  margin: 0px 10px;
 }
 
 .hero_text button {
-  padding: 18px 40px;
+  padding: 20px 0px;
+  width: 80%;
+  text-align: center;
   border: none;
   border-radius: 30px;
   background-color: hsl(322, 100%, 66%);
@@ -79,120 +82,390 @@ nav {
   text-align: center;
 }
 .hero_text button:hover {
-    opacity: .6;
+  opacity: 0.6;
 }
 
 .hero_img img {
-    width: 350px;
+  width: 350px;
 }
 
 .cards {
-    padding: 40px 0px;
-    text-align: center;
+  padding: 40px 0px;
+  text-align: center;
 }
 
 .card {
-    display: block;
-    margin:50px 10px;
-    padding: 30px 10px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius: 20px;
+  display: block;
+  margin: 50px 10px;
+  padding: 30px 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
 }
-.card_img img{
-    width: 280px;
-    padding-bottom: 80px;
+.card_img img {
+  width: 280px;
+  padding-bottom: 80px;
 }
 .card_content h3 {
-    font-size: 1.8rem;
-    padding-bottom: 30px;
-    font-family: "Poppins", sans-serif; 
+  font-size: 1.8rem;
+  padding-bottom: 30px;
+  font-family: "Poppins", sans-serif;
 }
 .card_content p {
-    font-size: 1.2rem;
-    color: hsl(192, 100%, 9%);
-    opacity: .8;
+  font-size: 1.2rem;
+  color: hsl(192, 100%, 9%);
+  opacity: 0.8;
 }
 
 footer {
-    position: relative;
-    top: 180px;
-    background-color: hsl(192, 100%, 9%);
-    color: white;
-    width: 100%;
-    padding: 15px;
+  position: relative;
+  top: 180px;
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  width: 100%;
+  padding: 15px;
 }
 footer .top {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    top: -120px;
-    background-color: white;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius: 20px;
-    color: hsl(192, 100%, 9%);
-    padding: 40px 0px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -120px;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
+  color: hsl(192, 100%, 9%);
+  padding: 40px 0px;
 }
 .top h2 {
-    display: flex;
-    text-align: center;
-    font-size: 1.2rem;
-    font-family: "Poppins", sans-serif;
-    color: hsl(192, 100%, 9%);
-    padding-bottom: 40px;
+  display: flex;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  color: hsl(192, 100%, 9%);
+  padding-bottom: 40px;
 }
 .top button {
-    padding: 12px 40px;
-    border: none;
-    border-radius: 30px;
-    background-color: hsl(322, 100%, 66%);
-    color: white;
-    font-size: .9rem;
-    font-weight: 600;
-    letter-spacing: 2px;
-    cursor: pointer;
-  }
-  .myInfo {
-    display: inline-flex;
-    padding: 20px;
-    font-size: 1.4rem;
-  }
+  padding: 20px 0px;
+  width: 80%;
+  text-align: center;
+  border: none;
+  border-radius: 50px;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.top button:hover {
+  opacity: 0.6;
+}
+.myInfo {
+  display: inline-flex;
+  padding: 20px;
+  font-size: 1.4rem;
+}
 .footer_img {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
+  height: 35px;
 }
-.icon ion-icon{
-    position: relative;
-    right: 20px;
-    height: 26px;
-    width: 26px;
+.icon ion-icon {
+  position: relative;
+  right: 20px;
+  height: 26px;
+  width: 26px;
 }
-.top_icon{
-    position: relative;
-    top: -22px;
+.top_icon {
+  position: relative;
+  top: -22px;
 }
 
 .links ul {
-    display: block;
-    list-style: none;
+  display: block;
+  list-style: none;
 }
 
 .links ul li {
-    font-size: 1.5rem;
-    padding: 20px 0px;
+  font-size: 1.5rem;
+  padding: 20px 0px;
+}
+.links ul li a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.links ul li a:hover{
+    text-decoration: underline;
 }
 .social_icons {
-    padding: 30px 0px;
-    text-align: center;
-    font-size: 3rem;
+  padding: 30px 0px;
+  text-align: center;
+  font-size: 3rem;
 }
 .social_icons a {
-    color: white;
+  color: white;
 }
 .social_icons a:hover {
-    color: hsl(322, 100%, 66%);
+  color: hsl(322, 100%, 66%);
 }
 
 .copyright {
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+}
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 400px;
+    height: 100px;
+  }
+  .nav_brand img {
+    height: 27px;
+  }
+  .myBtn button {
+    padding: 8px 20px;
+    font-size: 1rem;
+    font-weight: 800;
+  }
+  .hero_text h1 {
+    position: relative;
+    left: 16%;
+    width: 70%;
+    font-size: 3.1rem;
+  }
+  .hero_text p {
+    position: relative;
+    left: 10%;
+    width: 80%;
+    font-size: 1.5rem;
+    padding-bottom: 80px;
+  }
+  .hero_text button {
+    padding: 20px 0px;
+    width: 40%;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 0.9rem;
+  }
+  .hero_img img {
+    width: 500px;
+  }
+  .cards {
+    position: relative;
+    top: 80px;
+    padding: 60px 0px;
+  }
+  .card {
+    margin: 70px 50px;
+    padding: 60px 40px;
+  }
+  .card_img img {
+    width: 300px;
+    padding-bottom: 80px;
+  }
+  .card_content h3 {
+    font-size: 2rem;
+  }
+  .card_content p {
+    font-size: 1.4rem;
+  }
+
+  footer .top {
+    position: relative;
+    top: -200px;
+    padding: 100px 0px;
+  }
+  .top h2 {
+    font-size: 2rem;
+    padding-bottom: 40px;
+  }
+  .top button {
+    width: 40%;
+    text-align: center;
+    padding: 18px 0px;
+    border-radius: 50px;
+    font-size: 1rem;
+  }
+  .myInfo {
+    text-align: start;
+    font-size: 1.4rem;
+  }
+  .footer_img {
+    margin-bottom: 60px;
+    height: 40px;
+  }
+  .icon ion-icon {
+    position: relative;
+    right: 20px;
+    height: 28px;
+    width: 28px;
+  }
+  .top_icon {
+    position: relative;
+    top: -16px;
+  }
+
+  .links ul li {
+    font-size: 2rem;
+  }
+  .social_icons {
+    font-size: 2.6rem;
+  }
+  .copyright {
+    padding: 10px 0px;
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .hero_container {
+    background-image: url(../images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    background-position: center;
+    background-size: cover;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 600px;
+    height: 80px;
+  }
+  .nav_brand img {
+    height: 26px;
+  }
+  .myBtn button {
+    padding: 8px 20px;
+    font-size: 1rem;
+    font-weight: 800;
+  }
+
+  .hero_section {
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 80%;
+    gap: 20px;
+  }
+  .hero_text {
+    text-align: left;
+    width: 50%;
+  }
+  .hero_text h1 {
+    margin: 0px 10px;
+    font-size: 2.4rem;
+  }
+  .hero_text p {
     font-size: 1rem;
+    margin: 0px 10px;
+    padding-bottom: 30px;
+  }
+  .hero_text button {
+    width: 60%;
+    padding: 12px 0px;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    margin: 0px 10px;
+  }
+  .hero_img img {
+    float: left;
+    width: 600px;
+  }
+  .card {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+  }
+  .flex-only {
+    display: flex;
+    flex-direction: row;
+  }
+  .card_img img {
+    width: 450px;
+    padding-bottom: 80px;
+  }
+  .card_content {
+    text-align: left;
+    width: 50%;
+  }
+  .card_content h3 {
+    font-size: 1.7rem;
+  }
+  .card_content p {
+    font-size: 1.2rem;
+  }
+  footer {
+    position: relative;
+    top: 240px;
+  }
+  footer .top {
+    position: relative;
+    top: -180px;
+    padding: 80px 0px;
+    width: 70%;
+  }
+  .top h2 {
+    font-size: 1.5rem;
+    padding-bottom: 40px;
+  }
+  .top button {
+    padding: 18px 40px;
+    border-radius: 50px;
+    font-size: 1rem;
+  }
+  .footer_text {
+    display: inline-flex;
+  }
+  .grid1 {
+    display: block;
+    text-align: start;
+    width: 33%;
+  }
+
+  .myInfo {
+    display: inline-flex;
+    font-size: 1rem;
+  }
+  .footer_img {
+    margin-bottom: 20px;
+    height: 36px;
+  }
+  .icon ion-icon {
+    position: relative;
+    right: 20px;
+    height: 24px;
+    width: 24px;
+  }
+  .top_icon {
+    position: relative;
+    top: -2px;
+  }
+
+  .links ul li {
+    display: inline-flex;
+    width: 33%;
+    font-size: 1rem;
+  }
+  .social_icons {
+    display: block;
+    width: 11%;
+  }
+  .social_icons {
+    display: inline;
+    font-size: 1.5rem;
+    text-align: start;
+    position: relative;
+    top: -30px;
+    margin-left: 10px;
+  }
+  .copyright {
+    position: relative;
+    bottom: -100px;
+    font-size: 1rem;
+  }
 }
