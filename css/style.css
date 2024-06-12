@@ -67,8 +67,7 @@ nav {
 }
 
 .hero_text button {
-  padding: 20px 0px;
-  width: 80%;
+  padding: 20px 40px;
   text-align: center;
   border: none;
   border-radius: 30px;
@@ -347,24 +346,27 @@ footer .top {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 90%;
     gap: 20px;
   }
   .hero_text {
     text-align: left;
-    width: 50%;
   }
   .hero_text h1 {
-    margin: 0px 10px;
     font-size: 2.4rem;
   }
   .hero_text p {
+    position: relative;
+    left: 16%;
     font-size: 1rem;
     margin: 0px 10px;
     padding-bottom: 30px;
   }
   .hero_text button {
-    width: 60%;
+    position: relative;
+    left: 16%;
+    width: 40%;
+    text-align: center;
     padding: 12px 0px;
     border-radius: 50px;
     font-size: 0.8rem;
